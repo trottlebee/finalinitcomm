@@ -1,0 +1,72 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+.view {
+    background: url("/Users/mac/Desktop/Source/Develop/mpowerFINALPROJECT/MDB-Pro_4/img/Depositphotos_1741321_xl-2015.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+    align-content: flex-start;
+    justify-items: center
+}
+
+@media (max-width: 5121px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100%;
+  }
+}
+@media (min-width: 800px) and (max-width: 5121px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100%;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #3F729B !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 5121px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #3F729B !important;
+  }
+}
+
+.rgba-gradient {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
+  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.md-form label {
+  color: #ffffff;
+}
+
+h6 {
+  line-height: 1.7;
+}

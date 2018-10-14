@@ -1,0 +1,26 @@
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("/Users/mac/Desktop/Source/Develop/mpowerFINALPROJECT/MDB-Pro_4/img/Depositphotos_11343694_xl-2015.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+    align-content: flex-start;
+    justify-items: center
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.3);
+  }

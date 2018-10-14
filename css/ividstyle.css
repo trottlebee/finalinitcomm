@@ -1,0 +1,49 @@
+/* NEW CODE */
+
+/* Required for full background image */
+
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+    align-content: flex-start;
+    justify-items: center
+}
+
+@media (max-width: 5121px) {
+  html,
+  body,
+  header,
+  #intro-section {
+    height: 100%;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #4b515d !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 0px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #4b515d !important;
+  }
+}
+
+.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+}
+
+img { 
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    width:77%; 
+    height:77%; 
+    align-content: center center no-repeat;
+ }

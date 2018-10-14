@@ -1,0 +1,8 @@
+/* Your custom styles */
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+    align-content: flex-start;
+    justify-items: center
+}
